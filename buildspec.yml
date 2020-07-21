@@ -9,7 +9,7 @@ phases:
       - apt install -y nodejs
   pre_build:
     commands:
-      - echo Installing dependendcies...
+      - echo Installing dependencies...
       - npm install
   build:
     commands:
